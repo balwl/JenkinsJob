@@ -1,3 +1,9 @@
 @Library('my-test-lib@main') _
 
-test()
+node {
+    
+    stage("Hello World!") {
+        def testvar = testvar.var2
+        println "HelloWorld ${testvar}"
+    }
+}
