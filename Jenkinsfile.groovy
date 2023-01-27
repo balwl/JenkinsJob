@@ -1,3 +1,3 @@
 @Library('my-test-lib@main') _
 
-test('World')
+test1.hello_world('World')
